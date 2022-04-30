@@ -1,0 +1,68 @@
+@font-face{
+    font-family:myfont;
+    src:url("../font/FACEBOLF.otf")
+}
+body{
+    font-family: myfont;
+    color: #0E4456;
+    background-image: url(../img/thu.PNG);
+}
+#header{
+    background-color: #0E4456;
+    width:100%;
+    height:20%;
+}
+h1{
+    color: white;
+    font-size: 300%;
+    text-align: center;
+}
+fieldset{
+    width: 80%;
+    position: absolute;
+    top: 30%;
+    left:10%;
+}
+legend{
+    font-size: 250%;
+}
+label{
+    font-size: 200%;
+}
+input{
+    font-size: 200%;
+    height: 10%;
+}
+button{
+    background-color: #0E4456;
+    height: 1.5em;
+    color: white;
+    width: 15%;
+    font-size: 200%;
+    border-color: #0E4456;
+    border-right: #0E4456;
+    border-bottom: #0E4456;
+    border-radius: 10px;
+}
+button:hover, button:active{
+    background-color: #0E4436;
+    height: 1.5em;
+    color: white;
+    width: 15%;
+    font-size: 200%;
+    border-right: #0E4436;
+    border-bottom: #0E4436;
+    border-radius: 10px;
+}
+#instruction{
+    width: 80%;
+    position: absolute;
+    top: 55%;
+    left:10%;
+    font-size: 200%;
+}
+#warn{
+    box-shadow: 10px 10px 10px #ff0000 inset;
+    color: #500;
+    text-align: center;
+}

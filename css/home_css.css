@@ -1,0 +1,83 @@
+@font-face{
+    font-family:myfont;
+    src:url("../font/FACEBOLF.otf")
+}
+body{
+    background-image: url(../img/thu.PNG);
+    font-family: myfont;
+    color: black;
+}
+#header{
+    top: 0%;
+    position: fixed;
+    width: 100%;
+    height:15%;
+    background-color: #0E4456;
+    z-index: 2;
+}
+#search_form{
+    position: absolute;
+    top: 9%;
+    left:65%;
+}
+h1{
+    color: white;
+    font-size: 200%;
+    text-align: left;
+}
+button{
+    background-image: -webkit-linear-gradient(left, #0E4456, white);
+    color: white;
+    height: 1.5em;
+    width: 5em;
+    font-size: 100%;
+    border-color: #0E4456;
+    border-right: #0E4456;
+    border-bottom: #0E4456;
+    border-radius: 7px;
+}
+#section_select{
+    background-image: -webkit-linear-gradient(left, #0E4456, white);
+    height: 1.5em;
+    font-size: 100%;
+}
+#navigation{
+    top: 15%;
+    position: fixed;
+    align-content: center;
+    background-color: #0E4456;
+    height:100%;
+    width: 20%;
+    z-index: 2;
+}
+#go_button{
+    width: 3em;
+}
+button:hover{
+    background-image: -webkit-linear-gradient(right, #0E4456, white);
+}
+a{
+    color: white;
+    text-decoration-line: none;
+}
+a:hover{
+    transition: all .03s ease-in;
+    transform: scale(1.5);
+}
+#main{
+    position: absolute;
+    top: 16%;
+    left: 21%;
+    color: black;
+    height: 100%;
+    width: 80%;
+}
+#go_to{
+    position: absolute;
+    left: 50%;
+}
+#success{
+    box-shadow: 10px 10px 10px #0E4456 inset;
+    color: #500;
+    text-align: center;
+}
