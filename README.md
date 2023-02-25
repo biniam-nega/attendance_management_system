@@ -1,3 +1,3 @@
-# Attendance management syster
+# Attendance management system
 
 A college attendance management system
